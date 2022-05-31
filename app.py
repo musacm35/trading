@@ -10,7 +10,7 @@ api = tradeapi.REST(config.API_KEY, config.API_SECRET, base_url = 'https://paper
 def dashboard():
     orders = api.list_orders()
 
-    return 'Hello World'
+    return 'Helloo World'
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
